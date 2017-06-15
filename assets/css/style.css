@@ -1,0 +1,271 @@
+/*Positioning htnl so as to make footer absolute*/
+html{
+    position: relative;
+    min-height: 100%;
+}
+/*Postion the main contaier containing all the header and division*/
+.container{
+	background-color: #4aaaa5;
+	width:100%;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #cccccc;
+}
+/* bottom = footer height */
+body {
+    margin: 0 0 100px; /
+}
+/*Positioning  and setting the background image for main section content*/
+.content{
+	background-image: url("../images/weather.png");
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #cccccc;
+   	padding: 20px;
+}
+/*positioning header*/
+header{
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #cccccc;
+}
+/*propeties of Logo(my name)*/
+#logo{
+	width: 20%;
+	font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	margin-left: 70px;
+	text-align: center;
+	color: #ffffff;
+	
+}
+/*Menu bar alignment*/
+ #menu{
+    	width: 60%;
+    	display: inline-block;
+    	text-align: right;
+    	float: right;
+    	margin-right: 120px;
+    }
+ /*Displaying link as a vlock to align them horizontal*/
+ul li{
+	display: inline-block;
+}
+/*Positioning of anchor tag*/
+ul li a{
+	text-align: center;
+	color: #777777;
+	text-decoration: none;
+}
+/*Positioning of profile image*/
+#bio-image{
+	width:200px;
+	float: left;
+	margin-left: 20px;
+}
+/*Positioning of main section content page */
+#main-bio{
+	width: 50%;
+	font-family: georgia;
+	display: inline-block;
+	background-color:#ffffff;
+	margin-left: 50px;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 30px;
+}
+/*Positioning of connect me page*/
+#connect{
+	width: 25%;
+	float: right;
+	margin-right: 120px;
+	display: inline-block;
+	font-family: georgia;
+	display: inline-block;
+	background-color:#ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+}
+/*Paragraph alignment*/
+p{
+   margin-left: 20px;
+   color: #777777;
+}
+/*Properties of h2 heading*/
+h2{
+	color: #4aaaa5;
+	font-family: 'Georgia'
+	font-size: 24px;
+	margin-left: 20px;
+}
+/*Horizontal rule on the page*/
+hr{
+	background-color: #dddddd;	
+	width: 95%;
+}
+/*Properties of browser icon*/
+.icon-image{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	padding: 10px;
+}
+/*Positioning of page footer and making it stick on the page*/
+footer{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background-color: #777777;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #cccccc;
+    text-align: center;
+    left:0;
+    bottom: 0;
+}
+/*Propertes of footer paragraph*/
+#footer_p{
+	color:#ffffff;
+	padding: 20px;
+	font-family: georgia;
+	display: inline-block;
+}
+/*Postioning the 7 portfolio images*/
+.images-multiple{
+	width: 30%;
+    margin-left: auto ;
+    margin-right:auto ;
+    float: left;
+    display: block;
+    margin-left: 15px;
+    padding-top: 20px;
+    float: clear; 
+}
+/*when hover on link chnages color to red*/
+a:hover{
+	color:red;
+}
+
+/*Positioning Text inside the image (ID and Class for all the 7 images*/
+.image1{
+    position: relative;
+}
+.Abstract{
+	position: absolute;
+    top: 150px;
+    left: 15px;
+    font-size: 10px;
+    font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 27%;
+	text-align: center;
+}
+.image2{
+    position: relative;
+}
+.Light{
+	position: absolute;
+    top: 150px;
+    left: 226px;
+    font-size: 10px;
+    font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 27%;
+	text-align: center;
+}
+.image3{
+    position: relative;
+}
+.bmw{
+	position: absolute;
+    top: 150px;
+    left: 437px;
+    font-size: 10px;
+    font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 27%;
+	text-align: center;
+}
+.image4{
+    position: relative;
+}
+.city{
+    position: absolute;
+    top: 370px;
+    left: 15px;
+    font-size: 10px;
+    font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 27%;
+	text-align: center;
+}
+.image5{
+    position: relative;
+}
+.gate{
+    position: absolute;
+    top: 370px;
+    left:226px;
+    font-size: 10px;
+    font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 27%;
+	text-align: center;
+}
+
+.image6{
+     position: relative;
+}
+.ipad{
+	 position: absolute;
+    top: 370px;
+    left: 437px;
+    font-size: 10px;
+    font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 27%;
+	text-align: center;
+
+}
+.image7{
+     position: relative;
+}
+.sun{
+position: absolute;
+    top: 590px;
+    left: 15px;
+    font-size: 10px;
+    font-family: georgia;
+	display: inline-block;
+	background-color:#4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 27%;
+	text-align: center;
+}
+
+form{
+	margin-left: 20px;
+	/*padding: 40px;*/
+}
